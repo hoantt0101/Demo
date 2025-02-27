@@ -16,7 +16,7 @@ namespace TestSpecs.Driver
             {
                 case "chrome":
                     {
-                        if (isHeadless.Equals("true");
+                        if (isHeadless.Equals("true"))
                         {
                             ChromeOptions options = new ChromeOptions();
                             options.AddArgument("--headless");
@@ -26,7 +26,7 @@ namespace TestSpecs.Driver
 
                 case "firefox":
                     {
-                        if (isHeadless.Equals("true");
+                        if (isHeadless.Equals("true"))
                         {
                             FirefoxOptions options = new FirefoxOptions();
                             options.AddArgument("--headless");
